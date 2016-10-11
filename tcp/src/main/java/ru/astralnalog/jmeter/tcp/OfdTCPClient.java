@@ -1,4 +1,4 @@
-package ru.astralnalog.jmeter;
+package ru.astralnalog.jmeter.tcp;
 
 import org.apache.jmeter.protocol.tcp.sampler.BinaryTCPClientImpl;
 /**
