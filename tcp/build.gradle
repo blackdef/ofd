@@ -1,0 +1,10 @@
+apply plugin: 'java'
+
+dependencies {
+    compile group: 'org.apache.jmeter', name: 'ApacheJMeter_core', version: '3.0'
+    compile group: 'org.apache.jmeter', name: 'ApacheJMeter_tcp', version: '3.0'
+}
+
+repositories {
+    mavenCentral()
+}
