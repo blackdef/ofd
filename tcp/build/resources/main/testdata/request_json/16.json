@@ -1,0 +1,37 @@
+{
+   "$serverTimeStamp" : 1486571200,
+   "document" : {
+      "fiscalReportCorrection" : {
+         "kktNumber" : "002100000002",
+         "internetSign" : 0,
+         "kktRegId" : "0102030041062476",
+         "autoMode" : 0,
+         "user" : "ООО \"Рога и копыта\"",
+         "dateTime" : 1484301720,
+         "operator" : "Техник Администатор",
+         "fiscalDocumentFormatVer" : 2,
+         "correctionReasonCode" : [
+            1
+         ],
+         "rawData" : "CwAmAREEEAA5OTk5MDc4OTAwMDAwOTA1DQQUADAxMDIwMzAwNDEwNjI0NzYgICAg+gMMADI3MjUwMjA4MDEgIBAEBAABAAAA9AMEAJileFg1BAYAIQR4kmwEIAQBAADqAwEAAOkDAQAAVQQBAABWBAEAAFQEAQAAJgQBAAFNBAEAARgEEwCOjo4gIpCuo6AgqCCqrq/r4qAi9QMMADAwMjEwMDAwMDAwMv0DEwCSpeWtqKoggKSsqK2o4eKg4q7g8QMZADI0ODAwMyCKoKvjo6Agi6WtqK2gIDEwMDSjBBMAjOsgraAg4uCl4uylrCDt4qCmpcUEAQAAuQQBAAKkBAMAMS4wpQQBAAL5AwwANzg0MTQ2NTE5OCAgFgQMAI+l4qXgIOGl4KKo4Q==",
+         "fiscalDocumentNumber" : 1,
+         "fiscalSign" : 2022861828,
+         "ofdName" : "Петер сервис",
+         "bsoSign" : 0,
+         "code" : 11,
+         "userInn" : "2725020801",
+         "retailPlace" : "Мы на третьем этаже",
+         "offlineMode" : 0,
+         "kktVersion" : "1.0",
+         "encryptionSign" : 0,
+         "printInMachineSign" : 0,
+         "serviceSign" : 0,
+         "fiscalDriveNumber" : "9999078900000905",
+         "retailAddress" : "248003 Калуга Ленина 1004",
+         "documentKktVersion" : 2,
+         "ofdInn" : "7841465198",
+         "taxationType" : 1
+      }
+   },
+   "$code" : 11
+}

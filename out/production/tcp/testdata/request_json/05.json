@@ -1,0 +1,27 @@
+{
+   "$code" : 5,
+   "$serverTimeStamp" : 1486571200,
+   "document" : {
+      "closeShift" : {
+         "notTransmittedDocumentsDateTime" : 0,
+         "notTransmittedDocumentsQuantity" : 0,
+         "ofdResponseTimeoutSign" : 0,
+         "code" : 5,
+         "receiptsQuantity" : 1,
+         "fiscalDriveMemoryExceededSign" : 0,
+         "user" : "Николаев Дмитрий",
+         "shiftNumber" : 18,
+         "fiscalDriveNumber" : "99990789278",
+         "dateTime" : 1475054880,
+         "fiscalDriveReplaceRequiredSign" : 0,
+         "kktRegId" : "0431328",
+         "documentsQuantity" : 3,
+         "fiscalSign" : 3207139435,
+         "rawData" : "BQC8ABEEEAA5OTk5MDc4OTI3OCAgICAgDQQUADA0MzEzMjggICAgICAgICAgICAg+gMMADQwMjkwMTc5ODEgIBAEBAA+AAAA9AMEACCN61c1BAYAJAS/KRBrDgQEABIAAABeBAQAAQAAAFcEBAADAAAASQQEAAAAAABKBAQAAAAAABoEAQAAGwQBAAAcBAEAAB0EAQAA/QMSAJGIkS4ggISMiI2IkZKQgJKOkBgEEACNqKquq6CloiCErKji4Kip",
+         "operator" : "СИС. АДМИНИСТРАТОР",
+         "fiscalDocumentNumber" : 62,
+         "userInn" : "4029017981",
+         "fiscalDriveExhaustionSign" : 0
+      }
+   }
+}

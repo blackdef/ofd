@@ -3,6 +3,10 @@ apply plugin: 'java'
 dependencies {
     compile group: 'org.apache.jmeter', name: 'ApacheJMeter_core', version: '3.0'
     compile group: 'org.apache.jmeter', name: 'ApacheJMeter_tcp', version: '3.0'
+    compile 'org.testng:testng:6.11'
+    compile 'org.hamcrest:java-hamcrest:2.0.0.0'
+//    compile 'org.apache.directory.studio:org.apache.commons.codec:1.8'
+
 }
 
 repositories {
@@ -10,5 +14,5 @@ repositories {
 }
 jar {
     baseName = 'ofdtcpimpl'
-    version =  '0.1.0'
+    version =  '0.2.0'
 }

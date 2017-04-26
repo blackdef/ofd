@@ -1,0 +1,32 @@
+{
+   "document" : {
+      "fiscalReportCorrection" : {
+         "code" : 11,
+         "autoMode" : 0,
+         "ofdName" : "ООО \"Тестгейт\"",
+         "userInn" : "7727295254",
+         "correctionReasonCode" : [
+            2
+         ],
+         "encryptionSign" : 0,
+         "rawData" : "CwD2ABEEEAA5OTk5MDc4OTAwMDAwOTA2DQQUADAwMDAwMDAwMDEwNDEwNzcgICAg+gMMADc3MjcyOTUyNTQgIBAEBAAHAAAA9AMEACCMc1g1BAYAIQSB5/BxIAQBAADqAwEAAOkDAQAAVQQBAABWBAEAAFQEAQAAJgQBAAFNBAEAAhgEDACOjo4gIpCgpOOjoCL1AwwAMDAyMTAwMDAwMDAx/QMTAJKl5a2oqiCApKyorajh4qDiruDxAxsAoy4gjK7hqqKgLCDjqy4gi6XhraDvLCCkLjcu+QMMADc3Mjg2OTk1MTcgIBYEDgCOjo4gIpKl4eKjpaniIg==",
+         "ofdInn" : "7728699517",
+         "fiscalDocumentNumber" : 7,
+         "internetSign" : 0,
+         "serviceSign" : 0,
+         "bsoSign" : 0,
+         "kktNumber" : "002100000001",
+         "taxationType" : 1,
+         "fiscalSign" : 2179461233,
+         "user" : "ООО \"Радуга\"",
+         "kktRegId" : "0000000001041077",
+         "retailAddress" : "г. Москва, ул. Лесная, д.7.",
+         "fiscalDriveNumber" : "9999078900000906",
+         "operator" : "Техник Администатор",
+         "dateTime" : 1483967520,
+         "offlineMode" : 0
+      }
+   },
+   "$code" : 11,
+   "$serverTimeStamp" : 1486571200
+}

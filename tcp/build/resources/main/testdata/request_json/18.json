@@ -1,0 +1,31 @@
+{
+   "$code" : 31,
+   "$serverTimeStamp" : 1486571200,
+   "document" : {
+      "receiptCorrection" : {
+         "receiptCorrectionCode" : 31,
+         "shiftNumber" : 2,
+         "correctionBase" : 153,
+         "requestNumber" : 1,
+         "correctionType" : 0,
+         "ecashTotalSum" : 0,
+         "correctionSum" : 111,
+         "provisionSum" : 0,
+         "prepaidSum" : 0,
+         "fiscalDocumentNumber" : 10,
+         "creditSum" : 0,
+         "kktRegId" : "0000000071003492",
+         "dateTime" : 1486053540,
+         "fiscalDocumentFormatVer" : 2,
+         "operator" : "Иванов И. И.",
+         "ndsCalculated18" : 17,
+         "fiscalDriveNumber" : "99990789275",
+         "cashTotalSum" : 111,
+         "taxationType" : 1,
+         "fiscalSign" : 152947965,
+         "operationType" : 1,
+         "userInn" : "779876543210",
+         "rawData" : "HwDGABEEEAA5OTk5MDc4OTI3NSAgICAgDQQUADAwMDAwMDAwNzEwMDM0OTIgICAg+gMMADc3OTg3NjU0MzIxMBAEBAAKAAAA9AMEAKRgk1g1BAYAMwQJHcz9DgQEAAIAAAASBAQAAQAAAB4EAQAB/AMBAG+5BAEAAv0DDACIoqCtrqIgiC4giC4HBAEAbzkEAQAAvwQBAADABAEAAMEEAQAAHwQBAAGVBAEAAJYEFQCZBAIAMTKaBAQAgHaSWJsEAwAzMjFSBAEAEQ=="
+      }
+   }
+}

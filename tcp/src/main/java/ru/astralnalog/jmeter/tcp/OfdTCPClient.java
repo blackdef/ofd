@@ -2,18 +2,22 @@ package ru.astralnalog.jmeter.tcp;
 
 import org.apache.jmeter.protocol.tcp.sampler.BinaryTCPClientImpl;
 import org.apache.jmeter.protocol.tcp.sampler.ReadException;
+import ru.astralnalog.jmeter.helpers.BinHelper;
 
-import java.io.InputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.InterruptedIOException;
 import java.net.SocketTimeoutException;
 import java.util.Arrays;
 
-/**
- * Created by plotnikov on 11.10.2016.
- */
+
+
 public class OfdTCPClient extends BinaryTCPClientImpl {
 
+  /**
+   * Перегрузка стандартного метода чтения из входного потока бинарных данных.
+   * Возвращает строку в виде Hex от входного бинарного потока.
+   */
   @Override
   public String read(InputStream is) throws ReadException {
     try {
@@ -29,7 +33,7 @@ public class OfdTCPClient extends BinaryTCPClientImpl {
       }
       byte[] bytes = Arrays.copyOfRange(buffer, 0, x);
 
-      String s = new String(bytes);
+      String s = BinHelper.byteArrayToHexString(bytes);
       return s;
     }
     catch (SocketTimeoutException e) {

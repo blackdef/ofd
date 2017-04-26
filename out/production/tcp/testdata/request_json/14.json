@@ -1,0 +1,27 @@
+{
+   "$serverTimeStamp" : 1486571200,
+   "document" : {
+      "closeShift" : {
+         "documentsQuantity" : 8,
+         "fiscalDriveExhaustionSign" : 0,
+         "notTransmittedDocumentsDateTime" : 0,
+         "kktRegId" : "0170000002021160",
+         "fiscalDocumentNumber" : 9,
+         "notTransmittedDocumentsQuantity" : 0,
+         "receiptsQuantity" : 6,
+         "fiscalDocumentFormatVer" : 2,
+         "userInn" : "7702000406",
+         "shiftNumber" : 1,
+         "fiscalDriveMemoryExceededSign" : 0,
+         "ofdResponseTimeoutSign" : 0,
+         "dateTime" : 1486131720,
+         "operator" : "Иванов И. И.",
+         "code" : 5,
+         "fiscalSign" : 904882363,
+         "fiscalDriveReplaceRequiredSign" : 0,
+         "rawData" : "BQCnABEEEAA5OTk5MDc4OTI4MiAgICAgDQQUADAxNzAwMDAwMDIwMjExNjAgICAg+gMMADc3MDIwMDA0MDYgIBAEBAAJAAAA9AMEAAiSlFg1BAYAJAQ172i7DgQEAAEAAABeBAQABgAAAFcEBAAIAAAASQQEAAAAAABKBAQAAAAAABoEAQAAGwQBAAAcBAEAAB0EAQAAuQQBAAL9AwwAiKKgra6iIIguIIgu",
+         "fiscalDriveNumber" : "99990789282"
+      }
+   },
+   "$code" : 5
+}

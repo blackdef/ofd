@@ -1,0 +1,42 @@
+{
+   "document" : {
+      "fiscalReport" : {
+         "documentKktVersion" : 2,
+         "azartSign" : 0,
+         "userInn" : "7702000406",
+         "serviceSign" : 0,
+         "internetSign" : 0,
+         "retailPlace" : "Москва, ул. Пушкина, д. 1",
+         "user" : "Наименование",
+         "kktVersion" : "4.3",
+         "kktNumber" : "51000213",
+         "offlineMode" : 0,
+         "fiscalDocumentNumber" : 1,
+         "senderAddress" : "user@localhost",
+         "operator" : "Иванов И. И.",
+         "kktRegId" : "0170000002021160",
+         "ofdInn" : "7722554466",
+         "encryptionSign" : 0,
+         "bsoSign" : 0,
+         "ofdName" : "Тестовый ОФД",
+         "fiscalSign" : 2469837804,
+         "code" : 1,
+         "autoMode" : 0,
+         "fiscalDocumentFormatVer" : 2,
+         "taxationType" : 1,
+         "loterySign" : 0,
+         "dateTime" : 1486122600,
+         "fiscalDriveNumber" : "99990789282",
+         "printInMachineSign" : 0,
+         "fnsAddress" : "https://www.nalog.ru/",
+         "retailAddress" : "Москва, ул. Пушкина, д. 1",
+         "rawData" : "AQBKAREEEAA5OTk5MDc4OTI4MiAgICAgDQQUADAxNzAwMDAwMDIwMjExNjAgICAg+gMMADc3MDIwMDA0MDYgIBAEBAABAAAA9AMEAGhulFg1BAYAIQSTNrvsIAQBAADqAwEAAOkDAQAAVQQBAABWBAEAAFQEAQAAJgQBAAG5BAEAAqUEAQACpAQDADQuMxgEDACNoKispa2uoqCtqKX9AwwAiKKgra6iIIguIIgu8QMZAIyu4aqioCwg46suII/j6KqoraAsIKQuIDGjBBkAjK7hqqKgLCDjqy4gj+PoqqitoCwgpC4gMfkDDAA3NzIyNTU0NDY2ICD1AwgANTEwMDAyMTMWBAwAkqXh4q6i66kgjpSExQQBAACpBAEAAGYEAQAAJAQVAGh0dHBzOi8vd3d3Lm5hbG9nLnJ1L10EDgB1c2VyQGxvY2FsaG9zdA=="
+      }
+   },
+   "$serverTimeStamp" : 1486571200,
+   "$code" : 1,
+   "$warnings" : [
+      "Unexpected tag 1060 at offset 291",
+      "Unexpected tag 1117 at offset 316"
+   ]
+}

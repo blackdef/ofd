@@ -1,0 +1,19 @@
+{
+   "$code" : 2,
+   "document" : {
+      "openShift" : {
+         "shiftNumber" : 18,
+         "fiscalDriveNumber" : "99990789278",
+         "user" : "Николаев Дмитрий",
+         "kktRegId" : "0431328",
+         "userInn" : "4029017981",
+         "code" : 2,
+         "fiscalDocumentNumber" : 60,
+         "operator" : "СИС. АДМИНИСТРАТОР",
+         "rawData" : "AgCIABEEEAA5OTk5MDc4OTI3OCAgICAgDQQUADA0MzEzMjggICAgICAgICAgICAg+gMMADQwMjkwMTc5ODEgIBAEBAA8AAAA9AMEAOSM61c1BAYAIwSxVj6dDgQEABIAAAD9AxIAkYiRLiCAhIyIjYiRkpCAko6QGAQQAI2oqq6roKWiIISsqOLgqKk=",
+         "dateTime" : 1475054820,
+         "fiscalSign" : 2975219357
+      }
+   },
+   "$serverTimeStamp" : 1486571200
+}

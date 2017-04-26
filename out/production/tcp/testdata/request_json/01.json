@@ -1,0 +1,29 @@
+{
+   "document" : {
+      "fiscalReport" : {
+         "serviceSign" : 0,
+         "fiscalDocumentNumber" : 1,
+         "kktNumber" : "003002000002",
+         "bsoSign" : 0,
+         "fiscalDriveNumber" : "99990789278",
+         "autoMode" : 0,
+         "internetSign" : 0,
+         "dateTime" : 1484907240,
+         "fiscalSign" : 374861193,
+         "retailAddress" : "Москва, Енисейская ул., д. 2.",
+         "code" : 1,
+         "user" : "Тестовый пользователь",
+         "operator" : "Иванов М.А.",
+         "kktRegId" : "0102030041060501",
+         "rawData" : "AQDsABEEEAA5OTk5MDc4OTI3OCAgICAgDQQUADAxMDIwMzAwNDEwNjA1MDEgICAg+gMMADQwMjkwMjM3MzggIBAEBAABAAAA9AMEAOjigVg1BAYAIQQWV+2JIAQBAADqAwEAAOkDAQAAVQQBAABWBAEAAFQEAQAAJgQBAAEYBBUAkqXh4q6i66kgr66r7KeuoqDipavs9QMMADAwMzAwMjAwMDAwMv0DCwCIoqCtrqIgjC6ALvEDHQCMruGqoqAsIIWtqOGlqeGqoO8g46suLCCkLiAyLvkDDAA3NzA5MzY0MzQ2ICAWBAYAgOHi4KCr",
+         "userInn" : "4029023738",
+         "encryptionSign" : 0,
+         "ofdName" : "Астрал",
+         "offlineMode" : 0,
+         "ofdInn" : "7709364346",
+         "taxationType" : 1
+      }
+   },
+   "$serverTimeStamp" : 1486571200,
+   "$code" : 1
+}

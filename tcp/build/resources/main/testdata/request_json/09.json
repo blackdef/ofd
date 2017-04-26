@@ -1,0 +1,25 @@
+{
+   "$serverTimeStamp" : 1486571200,
+   "$code" : 31,
+   "document" : {
+      "receiptCorrection" : {
+         "ecashTotalSum" : 0,
+         "requestNumber" : 5,
+         "dateTime" : 1484746860,
+         "receiptCorrectionCode" : 31,
+         "taxationType" : 1,
+         "cashTotalSum" : 12500,
+         "userInn" : "7702203276",
+         "operator" : "СИСТ. АДМИН.",
+         "rawData" : "HwChABEEEAA5OTk5MDc4OTAwMDAxMzY2DQQUADAwMDAwMDAwMDcwNTM1MjcgICAg+gMMADc3MDIyMDMyNzYgIBAEBAAHAAAA9AMEAGxwf1g1BAYAMwTCUmHzDgQEAAEAAAASBAQABQAAAB4EAQAB/AMCANQw/QMMAJGIkZIuIICEjIiNLhgEDACQgI+KgJItloWNkpAfBAEAAQcEAgDUMDkEAQAA",
+         "correctionSum" : 12500,
+         "operationType" : 1,
+         "fiscalSign" : 3260178931,
+         "user" : "РАПКАТ-ЦЕНТР",
+         "fiscalDriveNumber" : "9999078900001366",
+         "kktRegId" : "0000000007053527",
+         "shiftNumber" : 1,
+         "fiscalDocumentNumber" : 7
+      }
+   }
+}
