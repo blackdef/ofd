@@ -1,0 +1,42 @@
+{
+   "$code" : 3,
+   "document" : {
+      "receipt" : {
+         "requestNumber" : 1,
+         "rawData" : "AwA3AREEEAA5OTk5MDc4OTI3OCAgICAgDQQUADA0MzEzMjggICAgICAgICAgICAg+gMMADQwMjkwMTc5ODEgIBAEBAA9AAAA9AMEACCN61c1BAYAMQQY8I1HDgQEABIAAAASBAQAAQAAAB4EAQAB/AMDAEDDOCMEPQAGBB0AkqXh4q6irqUgrO/hriAxMDAsMDAwIFggMTIsMDA3BAMAwNQB/wMDAAPoAxMEAwDA1AFQBAMAwNQBIwQ+AAYEHgCSpeHirqKupSCs7+GuIDMwMDAsMDAwIFggMTIsMDA3BAMAgO42/wMDAAPoAxMEAwCA7jZQBAMAgO42BwQDAEDDODkEAQAA/QMSAJGIkS4ggISMiI2IkZKQgJKOkB8EAQABGAQQAI2oqq6roKWiIISsqOLgqKlQBAMAQMM4",
+         "receiptCode" : 3,
+         "userInn" : "4029017981",
+         "fiscalSign" : 418417991,
+         "dateTime" : 1475054880,
+         "totalSum" : 3720000,
+         "taxationType" : 1,
+         "cashTotalSum" : 3720000,
+         "fiscalDriveNumber" : "99990789278",
+         "nds0" : 3720000,
+         "operationType" : 1,
+         "ecashTotalSum" : 0,
+         "kktRegId" : "0431328",
+         "fiscalDocumentNumber" : 61,
+         "shiftNumber" : 18,
+         "user" : "Николаев Дмитрий",
+         "items" : [
+            {
+               "nds0" : 120000,
+               "quantity" : 1,
+               "sum" : 120000,
+               "price" : 120000,
+               "name" : "Тестовое мясо 100,000 X 12,00"
+            },
+            {
+               "sum" : 3600000,
+               "nds0" : 3600000,
+               "quantity" : 1,
+               "name" : "Тестовое мясо 3000,000 X 12,00",
+               "price" : 3600000
+            }
+         ],
+         "operator" : "СИС. АДМИНИСТРАТОР"
+      }
+   },
+   "$serverTimeStamp" : 1486571200
+}

@@ -1,0 +1,26 @@
+{
+   "document" : {
+      "bsoCorrection" : {
+         "fiscalDriveNumber" : "9999078900002266",
+         "bsoCorrectionCode" : 41,
+         "kktRegId" : "4029017981",
+         "user" : " ",
+         "retailAddress" : "KAЛУГA",
+         "dateTime" : 1486401600,
+         "userInn" : "4029017981",
+         "rawData" : "KQCSABEEEAA5OTk5MDc4OTAwMDAyMjY2DQQUADQwMjkwMTc5ODEgICAgICAgICAg+gMMADQwMjkwMTc5ODEgIBAEBADWAAAA9AMEAECwmFg1BAYANATITFEgDgQEACcAAAASBAQABgAAAB4EAQAB/AMAAP0DAQAwGAQBACDxAwYAS0GLk4NBHwQBAAEHBAEAADkEAQAA",
+         "ecashTotalSum" : 0,
+         "operationType" : 1,
+         "operator" : "0",
+         "taxationType" : 1,
+         "cashTotalSum" : 0,
+         "correctionSum" : 0,
+         "fiscalSign" : 3360444704,
+         "shiftNumber" : 39,
+         "fiscalDocumentNumber" : 214,
+         "requestNumber" : 6
+      }
+   },
+   "$serverTimeStamp" : 1486571200,
+   "$code" : 41
+}

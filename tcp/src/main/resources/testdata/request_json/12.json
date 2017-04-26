@@ -1,0 +1,25 @@
+{
+   "document" : {
+      "openShift" : {
+         "dateTime" : 1484308560,
+         "operator" : "Техник Администатор",
+         "fiscalDriveNumber" : "9999078900000905",
+         "rawData" : "AgDeABEEEAA5OTk5MDc4OTAwMDAwOTA1DQQUADAwMDAwMDAwMDEwMjM5NTQgICAg+gMMADI3MjUwMjA4MDEgIBAEBAAEAAAA9AMEAFDAeFg1BAYAIwTxzWURDgQEAAIAAAAYBBMAjo6OICKQrqOgIKggqq6v6+KgIvEDGQAyNDgwMDMgiqCr46OgIIulraitoCAxMDA0owQTAIzrIK2gIOLgpeLspawg7eKgpqW5BAEAAqQEAAClBAEAAv0DEwCSpeWtqKoggKSsqK2o4eKg4q7gswQMADAwMDAwMDAwMDAwMA==",
+         "kktVersion" : "",
+         "shiftNumber" : 2,
+         "fiscalDocumentFormatVer" : 2,
+         "operatorInn" : "0000000000",
+         "fiscalDocumentNumber" : 4,
+         "retailPlace" : "Мы на третьем этаже",
+         "documentKktVersion" : 2,
+         "retailAddress" : "248003 Калуга Ленина 1004",
+         "user" : "ООО \"Рога и копыта\"",
+         "kktRegId" : "0000000001023954",
+         "code" : 2,
+         "fiscalSign" : 4056769809,
+         "userInn" : "2725020801"
+      }
+   },
+   "$serverTimeStamp" : 1486571200,
+   "$code" : 2
+}

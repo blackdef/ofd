@@ -1,0 +1,40 @@
+{
+   "document" : {
+      "fiscalReport" : {
+         "user" : "User",
+         "azartSign" : 0,
+         "ofdInn" : "4029017981",
+         "userInn" : "043698241245",
+         "autoMode" : 0,
+         "internetSign" : 0,
+         "exciseDutyProductSign" : 0,
+         "fiscalDriveNumber" : "4449313020",
+         "dateTime" : 1482523560,
+         "retailPlace" : "Russia",
+         "printInMachineSign" : 0,
+         "documentKktVersion" : 3,
+         "offlineMode" : 0,
+         "loterySign" : 0,
+         "kktRegId" : "0000000001001532",
+         "operatorInn" : "012345678912",
+         "fiscalDocumentFormatVer" : 3,
+         "ofdName" : "Astralnalog",
+         "rawData" : "AQAeARgEBABVc2Vy+gMMADA0MzY5ODI0MTI0NSYEAQAB9AMEAKiDXVgNBBQAMDAwMDAwMDAwMTAwMTUzMiAgICDqAwEAAFYEAQAAVQQBAAAgBAEAAOkDAQAAVAQBAAC5BAEAA6UEAQADpgQBAAPFBAEAALcEAQAAqQQBAABmBAEAAKMEBgBSdXNzaWEWBAsAQXN0cmFsbmFsb2ekBAUAT3Jpb271AxQAMDA1MDE2MDAwMDY3ICAgICAgICCzBAwAMDEyMzQ1Njc4OTEyvQQCAPQBEAQEAAEAAAARBBAANDQ0OTMxMzAyMCAgICAgIP0DDABPcGVyYXRvciBLS03xAwYAUnVzc2lh+QMMADQwMjkwMTc5ODEgIDUEBgAAAAAAAAAAAAAAAAAAAA==",
+         "fnKeyResource" : 500,
+         "retailAddress" : "Russia",
+         "serviceSign" : 0,
+         "fiscalDocumentNumber" : 1,
+         "fiscalSign" : 0,
+         "encryptionSign" : 0,
+         "kktNumber" : "005016000067        ",
+         "bsoSign" : 0,
+         "code" : 1,
+         "taxationType" : 1,
+         "operator" : "Operator KKM",
+         "documentFnVersion" : 3,
+         "kktVersion" : "Orion"
+      }
+   },
+   "$serverTimeStamp" : 1486571200,
+   "$code" : 1
+}
