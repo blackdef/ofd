@@ -4,10 +4,7 @@ import com.beust.jcommander.JCommander;
 import com.beust.jcommander.Parameter;
 import com.beust.jcommander.ParameterException;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 
 /**
  * Created by plotnikov on 26.04.2017.
@@ -23,10 +20,10 @@ public class BinHexConverter {
   public String destinationFile = "result.hex";
 
   @Parameter(names = {"--binPath", "-s"}, description = "Path to bin files")
-  public String sourcePath;
+  public String binPath;
 
   @Parameter(names = {"--hexPath", "-r"}, description = "Path to hex files")
-  public String destinationPath;
+  public String hexPath;
 
   @Parameter(names = {"--type", "-t"}, description = "Convert type")
   public String convertType = "toHex";
@@ -88,6 +85,29 @@ public class BinHexConverter {
     return hexString;
   }
 
+  public static void write(String fileName, String text, boolean replace) {
+
+    File file = new File(fileName);
+
+    try {
+      if(!file.exists()){
+        file.createNewFile();
+      } else if (replace){
+        file.createNewFile();
+      }
+
+      PrintWriter out = new PrintWriter(file.getAbsoluteFile());
+
+      try {
+        out.print(text);
+      } finally {
+         out.close();
+      }
+    } catch(IOException e) {
+      throw new RuntimeException(e);
+    }
+  }
+
   public static void main(String[] args) throws IOException
   {
     BinHexConverter binHexConverter = new BinHexConverter();
@@ -102,8 +122,48 @@ public class BinHexConverter {
 
   }
 
-  private void run() {
+  private void run() throws IOException {
+    if ((hexPath!=null) && (binPath!=null))
+    {
+      if (convertType!=null && convertType.equals("toHex"))
+      {
+        BinFileFilter binFilter = new BinFileFilter();
+        File binFolder = new File(binPath);
+        File hexFolder = new File(hexPath);
+        if (!binFolder.exists()){
+          System.out.println("Bin folder dose not exist!");
+          return;
+        }
+        if (!hexFolder.exists()){
+          hexFolder.mkdir();
+        }
 
+        File[] binFiles = binFolder.listFiles(binFilter);
+        for (File f :
+                binFiles) {
+          String st = getHexFromBinFile(f);
+          write(hexPath+File.separator+f.getName().split("[.]")[0]+".hex",st,true);
+
+        }
+      }
+
+    }
+
+  }
+
+  class BinFileFilter implements FileFilter {
+    public boolean accept(File pathname)
+    {
+      // проверям что это файл и что он заканчивается на .bin
+      return pathname.isFile() && pathname.getName().endsWith(".bin");
+    }
+  }
+  class HexFileFilter implements FileFilter {
+    public boolean accept(File pathname)
+    {
+      // проверям что это файл и что он заканчивается на .hex
+      return pathname.isFile() && pathname.getName().endsWith(".hex");
+    }
   }
 
 
