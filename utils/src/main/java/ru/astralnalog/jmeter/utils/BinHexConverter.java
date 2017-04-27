@@ -139,11 +139,9 @@ public class BinHexConverter {
         }
 
         File[] binFiles = binFolder.listFiles(binFilter);
-        for (File f :
-                binFiles) {
-          String st = getHexFromBinFile(f);
-          write(hexPath+File.separator+f.getName().split("[.]")[0]+".hex",st,true);
-
+        for (File f : binFiles) {
+          //пишем в файл с таким же именем как исходный, но на конце добавляем расширение hex
+          write(hexPath+File.separator+f.getName().split("[.]")[0]+".hex",getHexFromBinFile(f),true);
         }
       }
 
