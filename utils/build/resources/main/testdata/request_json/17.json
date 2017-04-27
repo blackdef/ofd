@@ -1,0 +1,21 @@
+{
+   "document" : {
+      "currentStateReport" : {
+         "dateTime" : 1484824740,
+         "notTransmittedDocumentNumber" : 0,
+         "notTransmittedDocumentsDateTime" : 0,
+         "fiscalDriveNumber" : "9999078900003061",
+         "userInn" : "5505021428",
+         "notTransmittedDocumentsQuantity" : 0,
+         "rawData" : "FQB4ABEEEAA5OTk5MDc4OTAwMDAzMDYxDQQUADAwMDAwMDAwMDEwNDIwMDMgICAg+gMMADU1MDUwMjE0MjggIBAEBAAFAAAA9AMEAKSggFg1BAYAKAQCD+Wr6gMBAABJBAQAAAAAAFwEBAAAAAAASgQEAAAAAAC5BAEAAg==",
+         "fiscalDocumentFormatVer" : 2,
+         "fiscalSign" : 34596267,
+         "kktRegId" : "0000000001042003",
+         "code" : 21,
+         "offlineMode" : 0,
+         "fiscalDocumentNumber" : 5
+      }
+   },
+   "$serverTimeStamp" : 1486571200,
+   "$code" : 21
+}

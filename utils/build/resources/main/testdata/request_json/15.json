@@ -1,0 +1,22 @@
+{
+   "$code" : 6,
+   "document" : {
+      "closeArchive" : {
+         "fiscalSign" : 3044266857,
+         "fiscalDocumentFormatVer" : 2,
+         "code" : 6,
+         "dateTime" : 1484303220,
+         "fiscalDocumentNumber" : 2,
+         "kktRegId" : "0102030041062476",
+         "userInn" : "2725020801",
+         "operator" : "Техник Администатор",
+         "rawData" : "BgDFABEEEAA5OTk5MDc4OTAwMDAwOTA1DQQUADAxMDIwMzAwNDEwNjI0NzYgICAg+gMMADI3MjUwMjA4MDEgIBAEBAACAAAA9AMEAHSreFg1BAYAJQS1c9NpGAQTAI6OjiAikK6joCCoIKqur+vioCLxAxkAMjQ4MDAzIIqgq+OjoCCLpa2oraAgMTAwNKMEEwCM6yCtoCDi4KXi7KWsIO3ioKaluQQBAAIOBAQAAAAAAP0DEwCSpeWtqKoggKSsqK2o4eKg4q7g",
+         "retailPlace" : "Мы на третьем этаже",
+         "fiscalDriveNumber" : "9999078900000905",
+         "user" : "ООО \"Рога и копыта\"",
+         "shiftNumber" : 0,
+         "retailAddress" : "248003 Калуга Ленина 1004"
+      }
+   },
+   "$serverTimeStamp" : 1486571200
+}

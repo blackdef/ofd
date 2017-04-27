@@ -1,0 +1,45 @@
+{
+   "document" : {
+      "receipt" : {
+         "requestNumber" : 3,
+         "ecashTotalSum" : 0,
+         "user" : "User",
+         "shiftNumber" : 5,
+         "creditSum" : 0,
+         "rawData" : "AwA6AbkEAQADswQMADAxMjM0NTY3ODkxMr8EBgAAAAAAAADABAYAAAAAAAAAwQQGAAAAAAAAAFEEBgAAAAAAAAAkBAwAd3d3Lm5hbG9nLnJ1EQQQADQ0NTEzMTMwMjAgICAgICANBBQAMDEyMzQ1NjczMTIwICAgICAgICD6AwwAMDEyMzQ1NjcyMTIwEAQEAAMAAADxAwYAUnVzc2lh9AMEAMhQYVg1BAYAAAAAACrMDgQEAAUAAAASBAQAAwAAAB4EAQAB/AMGADcCAAAAACMENAC+BAEAN7wEAQA3rwQBADcGBAUAdG92YXI3BAYANwIAAAAA/wMEAAPoAwATBAYANwIAAAAABwQGADcCAAAAADkEBgAAAAAAAAD9AwwAT3BlcmF0b3IgS0tNHwQBAAEYBAQAVXNlclAEAQA3AAAAAAAAAAA=",
+         "fiscalDocumentFormatVer" : 3,
+         "prepaidSum" : 0,
+         "fiscalDriveNumber" : "4451313020",
+         "nds0" : 55,
+         "userInn" : "012345672120",
+         "totalSum" : 567,
+         "retailAddress" : "Russia",
+         "kktRegId" : "012345673120",
+         "fiscalSign" : 10956,
+         "receiptCode" : 3,
+         "ndsNo" : 0,
+         "operationType" : 1,
+         "fiscalDocumentNumber" : 3,
+         "taxationType" : 1,
+         "provisionSum" : 0,
+         "operator" : "Operator KKM",
+         "operatorINN" : "012345678912",
+         "fnsAddress" : "www.nalog.ru",
+         "items" : [
+            {
+               "quantity" : 1,
+               "productType" : 55,
+               "nds" : 55,
+               "paymentType" : 55,
+               "name" : "tovar",
+               "sum" : 567,
+               "price" : 567
+            }
+         ],
+         "dateTime" : 1482772680,
+         "cashTotalSum" : 567
+      }
+   },
+   "$serverTimeStamp" : 1486571200,
+   "$code" : 3
+}

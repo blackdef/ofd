@@ -1,0 +1,49 @@
+{
+   "$serverTimeStamp" : 1486571200,
+   "document" : {
+      "bso" : {
+         "user" : "ООО \"Астрал-отчет\"",
+         "fiscalDriveNumber" : "99990789376",
+         "operator" : "Кассир #30",
+         "items" : [
+            {
+               "name" : "Тестовый товар",
+               "price" : 10000,
+               "quantity" : 1,
+               "sum" : 10000,
+               "nds0" : 0
+            },
+            {
+               "nds0" : 0,
+               "sum" : 10000,
+               "quantity" : 1,
+               "price" : 10000,
+               "name" : "Тестовый товар"
+            },
+            {
+               "price" : 10000,
+               "name" : "Тестовый товар",
+               "sum" : 10000,
+               "quantity" : 1,
+               "nds0" : 0
+            }
+         ],
+         "totalSum" : 30000,
+         "shiftNumber" : 5,
+         "rawData" : "BAA5AREEEAA5OTk5MDc4OTM3NiAgICAgDQQUADAwMDAwMDAwMDEwMzI5MTEgICAg+gMMADQwMjcwODA5MTcgIBAEBAAPAAAA9AMEAGzHkVg1BAYAMgTmLJfLDgQEAAUAAAASBAQAAQAAAB4EAQAB/AMCADB1IwQpAAYEDgCSpeHirqLrqSDirqKg4DcEAgAQJ/8DAgAAAVAEAQAAEwQCABAnIwQpAAYEDgCSpeHirqLrqSDirqKg4DcEAgAQJ/8DAgAAAVAEAQAAEwQCABAnIwQpAAYEDgCSpeHirqLrqSDirqKg4DcEAgAQJ/8DAgAAAVAEAQAAEwQCABAn/QMKAIqg4eGo4CAjMzAHBAIAMHU5BAEAABgEEgCOjo4gIoDh4uCgqy2u4uel4iIfBAEAAfEDCQCjLiCKoKvjo6A=",
+         "cashTotalSum" : 30000,
+         "fiscalSign" : 3861682123,
+         "requestNumber" : 1,
+         "kktRegId" : "0000000001032911",
+         "ecashTotalSum" : 0,
+         "operationType" : 1,
+         "dateTime" : 1485948780,
+         "retailAddress" : "г. Калуга",
+         "bsoCode" : 4,
+         "taxationType" : 1,
+         "fiscalDocumentNumber" : 15,
+         "userInn" : "4027080917"
+      }
+   },
+   "$code" : 4
+}

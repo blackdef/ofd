@@ -1,0 +1,41 @@
+{
+   "document" : {
+      "receipt" : {
+         "totalSum" : 111,
+         "fnsAddress" : "https://www.nalog.ru/",
+         "fiscalDocumentFormatVer" : 2,
+         "fiscalDocumentNumber" : 6,
+         "cashTotalSum" : 111,
+         "fiscalSign" : 2578194095,
+         "provisionSum" : 0,
+         "receiptCode" : 3,
+         "senderAddress" : "user@localhost",
+         "items" : [
+            {
+               "quantity" : 1,
+               "sum" : 111,
+               "nds" : 3,
+               "price" : 111,
+               "name" : "Тестовый товар"
+            }
+         ],
+         "ecashTotalSum" : 0,
+         "creditSum" : 0,
+         "rawData" : "AwAOAREEEAA5OTk5MDc4OTI4MiAgICAgDQQUADAxNzAwMDAwMDIwMjExNjAgICAg+gMMADc3MDIwMDA0MDYgIBAEBAAGAAAA9AMEAGyIlFg1BAYAMQSZrB6vDgQEAAEAAAASBAQABAAAAB4EAQAB/AMBAG8jBCcABgQOAJKl4eKuouupIOKuoqDgNwQBAG//AwIAAAGvBAEAAxMEAQBvUgQBABEHBAEAbzkEAQAAvwQBAADABAEAAMEEAQAAHwQBAAG5BAEAAhgEDACNoKispa2uoqCtqKUkBBUAaHR0cHM6Ly93d3cubmFsb2cucnUv/QMMAIiioK2uoiCILiCILl0EDgB1c2VyQGxvY2FsaG9zdA==",
+         "kktRegId" : "0170000002021160",
+         "dateTime" : 1486129260,
+         "userInn" : "7702000406",
+         "operator" : "Иванов И. И.",
+         "operationType" : 1,
+         "requestNumber" : 4,
+         "prepaidSum" : 0,
+         "taxationType" : 1,
+         "user" : "Наименование",
+         "fiscalDriveNumber" : "99990789282",
+         "ndsCalculated18" : 17,
+         "shiftNumber" : 1
+      }
+   },
+   "$serverTimeStamp" : 1486571200,
+   "$code" : 3
+}

@@ -1,0 +1,25 @@
+{
+   "$code" : 2,
+   "document" : {
+      "openShift" : {
+         "fiscalDriveNumber" : "4451313020",
+         "code" : 2,
+         "fiscalSign" : 0,
+         "dateTime" : 1482772680,
+         "retailAddress" : "Russia",
+         "shiftNumber" : 5,
+         "operator" : "Operator KKM",
+         "fiscalDocumentNumber" : 2,
+         "kktVersion" : "Orion",
+         "user" : "User",
+         "documentKktVersion" : 3,
+         "rawData" : "AgCtALkEAQADowQGAFJ1c3NpYaQEBQBPcmlvbqUEAQADswQMADAxMjM0NTY3ODkxMhgEBABVc2Vy+gMMADAxMjM0NTY3MjEyMP0DDABPcGVyYXRvciBLS03xAwYAUnVzc2lh9AMEAMhQYVgOBAQABQAAAA0EFAAwMTIzNDU2NzMxMjAgICAgICAgIBEEEAA0NDUxMzEzMDIwICAgICAgEAQEAAIAAAA1BAYAAAAAAAAAAAAAAAAAAAA=",
+         "operatorInn" : "012345678912",
+         "kktRegId" : "012345673120",
+         "userInn" : "012345672120",
+         "retailPlace" : "Russia",
+         "fiscalDocumentFormatVer" : 3
+      }
+   },
+   "$serverTimeStamp" : 1486571200
+}

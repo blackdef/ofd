@@ -1,0 +1,18 @@
+{
+   "$serverTimeStamp" : 1486571200,
+   "$code" : 6,
+   "document" : {
+      "closeArchive" : {
+         "kktRegId" : "0102030041013936",
+         "code" : 6,
+         "dateTime" : 1479748980,
+         "fiscalSign" : 3479721271,
+         "userInn" : "2902373840",
+         "fiscalDocumentNumber" : 11,
+         "rawData" : "BgBpABEEEAA5OTk5MDc4OTAwMDAwOTA1DQQUADAxMDIwMzAwNDEwMTM5MzYgICAg+gMMADAwMjkwMjM3Mzg0MBAEBAALAAAA9AMEAHQtM1g1BAYAJQTPaFU38QMAAP0DCwCIoqCtrqIgjC6ALg==",
+         "fiscalDriveNumber" : "9999078900000905",
+         "operator" : "Иванов М.А.",
+         "retailAddress" : ""
+      }
+   }
+}
