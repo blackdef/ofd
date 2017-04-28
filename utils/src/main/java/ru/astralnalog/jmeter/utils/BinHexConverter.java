@@ -188,20 +188,8 @@ public class BinHexConverter {
     }
   }
 
-  class BinFileFilter implements FileFilter {
-    public boolean accept(File pathname)
-    {
-      // проверям что это файл и что он заканчивается на .bin
-      return pathname.isFile() && pathname.getName().endsWith(".bin");
-    }
-  }
-  class HexFileFilter implements FileFilter {
-    public boolean accept(File pathname)
-    {
-      // проверям что это файл и что он заканчивается на .hex
-      return pathname.isFile() && pathname.getName().endsWith(".hex");
-    }
-  }
+
+
 
   public static void main(String[] args) throws IOException
   {
