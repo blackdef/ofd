@@ -1,4 +1,7 @@
 apply plugin: 'java'
+//apply plugin: 'application'
+
+//mainClassName = 'ru.astralnalog.jmeter.utils.BinHexConverter'
 
 dependencies {
     compile 'org.testng:testng:6.11'
@@ -10,4 +13,9 @@ dependencies {
 
 repositories {
     mavenCentral()
+}
+
+jar {
+    baseName = 'BinHexConverter'
+    version =  '0.1.0'
 }

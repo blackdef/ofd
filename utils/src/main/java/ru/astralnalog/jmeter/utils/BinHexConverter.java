@@ -99,12 +99,107 @@ public class BinHexConverter {
       PrintWriter out = new PrintWriter(file.getAbsoluteFile());
 
       try {
-        out.print(text);
+        out.append(text);
       } finally {
          out.close();
       }
     } catch(IOException e) {
       throw new RuntimeException(e);
+    }
+  }
+
+  public static String read(String fileName) throws FileNotFoundException {
+    //Этот спец. объект для построения строки
+    StringBuilder sb = new StringBuilder();
+    File file = new File(fileName);
+
+    exists(fileName);
+
+    try {
+      //Объект для чтения файла в буфер
+      BufferedReader in = new BufferedReader(new FileReader(file.getAbsoluteFile()));
+      try {
+        //В цикле построчно считываем файл
+        String s;
+        while ((s = in.readLine()) != null) {
+          sb.append(s);
+          sb.append("\n");
+        }
+      } finally {
+        //Также не забываем закрыть файл
+        in.close();
+      }
+    } catch(IOException e) {
+      throw new RuntimeException(e);
+    }
+
+    //Возвращаем полученный текст с файла
+    return sb.toString();
+  }
+  private static void exists(String fileName) throws FileNotFoundException {
+    File file = new File(fileName);
+    if (!file.exists()){
+      throw new FileNotFoundException(file.getName());
+    }
+  }
+
+  public static void update(String nameFile, String newText) throws FileNotFoundException {
+    exists(nameFile);
+    StringBuilder sb = new StringBuilder();
+    String oldFile = read(nameFile);
+    sb.append(oldFile);
+    sb.append(newText);
+    write(nameFile, sb.toString(),false);
+  }
+
+
+  private void binFilesConvertToHexDestinationFile() throws IOException {
+    BinFileFilter binFilter = new BinFileFilter();
+    File binFolder = new File(binPath);
+    if (!binFolder.exists()){
+      System.out.println("Bin folder dose not exist!");
+      return;
+    }
+    File[] binFiles = binFolder.listFiles(binFilter);
+    if (!(new File(destinationFile).exists())){
+      new File(destinationFile).createNewFile();
+    }
+    for (File f : binFiles) {
+       update(destinationFile,getHexFromBinFile(f));
+    }
+  }
+
+  private void binFilesConvertToHexFiles() throws IOException {
+    BinFileFilter binFilter = new BinFileFilter();
+    File binFolder = new File(binPath);
+    File hexFolder = new File(hexPath);
+    if (!binFolder.exists()){
+      System.out.println("Bin folder dose not exist!");
+      return;
+    }
+    if (!hexFolder.exists()){
+      hexFolder.mkdir();
+    }
+
+    File[] binFiles = binFolder.listFiles(binFilter);
+    for (File f : binFiles) {
+      //пишем в файл с таким же именем как исходный, но на конце добавляем расширение hex
+      write(hexPath+File.separator+f.getName().split("[.]")[0]+".hex",getHexFromBinFile(f),true);
+    }
+  }
+
+  class BinFileFilter implements FileFilter {
+    public boolean accept(File pathname)
+    {
+      // проверям что это файл и что он заканчивается на .bin
+      return pathname.isFile() && pathname.getName().endsWith(".bin");
+    }
+  }
+  class HexFileFilter implements FileFilter {
+    public boolean accept(File pathname)
+    {
+      // проверям что это файл и что он заканчивается на .hex
+      return pathname.isFile() && pathname.getName().endsWith(".hex");
     }
   }
 
@@ -127,40 +222,15 @@ public class BinHexConverter {
     {
       if (convertType!=null && convertType.equals("toHex"))
       {
-        BinFileFilter binFilter = new BinFileFilter();
-        File binFolder = new File(binPath);
-        File hexFolder = new File(hexPath);
-        if (!binFolder.exists()){
-          System.out.println("Bin folder dose not exist!");
-          return;
-        }
-        if (!hexFolder.exists()){
-          hexFolder.mkdir();
-        }
-
-        File[] binFiles = binFolder.listFiles(binFilter);
-        for (File f : binFiles) {
-          //пишем в файл с таким же именем как исходный, но на конце добавляем расширение hex
-          write(hexPath+File.separator+f.getName().split("[.]")[0]+".hex",getHexFromBinFile(f),true);
-        }
+        binFilesConvertToHexFiles();
       }
 
-    }
+    } else {
+      if ((binPath!=null)&& destinationFile!=null){
+        // convertType = "toHex";
+        binFilesConvertToHexDestinationFile();
 
-  }
-
-  class BinFileFilter implements FileFilter {
-    public boolean accept(File pathname)
-    {
-      // проверям что это файл и что он заканчивается на .bin
-      return pathname.isFile() && pathname.getName().endsWith(".bin");
-    }
-  }
-  class HexFileFilter implements FileFilter {
-    public boolean accept(File pathname)
-    {
-      // проверям что это файл и что он заканчивается на .hex
-      return pathname.isFile() && pathname.getName().endsWith(".hex");
+      }
     }
   }
 
