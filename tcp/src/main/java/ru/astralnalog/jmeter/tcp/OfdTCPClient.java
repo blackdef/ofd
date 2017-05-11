@@ -1,14 +1,15 @@
 package ru.astralnalog.jmeter.tcp;
 
+import org.apache.commons.io.IOUtils;
 import org.apache.jmeter.protocol.tcp.sampler.BinaryTCPClientImpl;
 import org.apache.jmeter.protocol.tcp.sampler.ReadException;
-import ru.astralnalog.jmeter.helpers.BinHelper;
+import org.apache.jorphan.util.JOrphanUtils;
 
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InterruptedIOException;
 import java.net.SocketTimeoutException;
-import java.util.Arrays;
 
 
 
@@ -20,9 +21,10 @@ public class OfdTCPClient extends BinaryTCPClientImpl {
    */
   @Override
   public String read(InputStream is) throws ReadException {
+    ByteArrayOutputStream w = new ByteArrayOutputStream();
     try {
       int x = 0;
-      byte[] buffer = new byte[16384];
+      byte[] buffer = new byte[4096];
       x = is.read(buffer);
       if (x < 0) {
         x = is.read(buffer);
@@ -31,9 +33,10 @@ public class OfdTCPClient extends BinaryTCPClientImpl {
           return s;
         }
       }
-      byte[] bytes = Arrays.copyOfRange(buffer, 0, x);
-
-      String s = BinHelper.byteArrayToHexString(bytes);
+      IOUtils.closeQuietly(w);
+      final String s = JOrphanUtils.baToHexString(w.toByteArray());
+      //byte[] bytes = Arrays.copyOfRange(buffer, 0, x);
+      //String s = BinHelper.byteArrayToHexString(bytes);
       return s;
     }
     catch (SocketTimeoutException e) {
@@ -43,7 +46,7 @@ public class OfdTCPClient extends BinaryTCPClientImpl {
       return "SHIT. Interrupted IOException. " + e.toString();
     }
     catch (IOException e) {
-      return e.toString();
+      throw new ReadException("", e, JOrphanUtils.baToHexString(w.toByteArray()));
     }
   }
 }
