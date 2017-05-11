@@ -33,6 +33,7 @@ public class OfdTCPClient extends BinaryTCPClientImpl {
           return s;
         }
       }
+      w.write(buffer, 0, x);
       IOUtils.closeQuietly(w);
       final String s = JOrphanUtils.baToHexString(w.toByteArray());
       //byte[] bytes = Arrays.copyOfRange(buffer, 0, x);
